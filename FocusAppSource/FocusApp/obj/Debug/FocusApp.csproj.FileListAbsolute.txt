@@ -1,0 +1,15 @@
+D:\My\Works\WindowsApp\FocusApp\FocusApp\bin\Debug\FocusApp.exe.config
+D:\My\Works\WindowsApp\FocusApp\FocusApp\bin\Debug\FocusApp.exe
+D:\My\Works\WindowsApp\FocusApp\FocusApp\bin\Debug\FocusApp.pdb
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\FocusApp.csproj.AssemblyReference.cache
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\FocusApp.frmMain.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\FocusApp.Models.Forms.frmTimerShowBox.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\FocusApp.Properties.Resources.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\FocusApp.csproj.GenerateResource.cache
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\FocusApp.csproj.CoreCompileInputs.cache
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\FocusApp.exe
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\FocusApp.pdb
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\SoftwareTrainingApplication.Models.Tools.CustomForm.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\SoftwareTrainingApplication.Models.UserControls.CheckListBox.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\SoftwareTrainingApplication.Models.UserControls.CheckListItem.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\kysToolDemo.KysTools.KYSTextBox.resources

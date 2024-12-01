@@ -1,0 +1,10 @@
+<request>
+   <id>2</id>
+   <address>www.instagram.com</address>
+   <activate>True</activate>
+</request>
+<request>
+   <id>3</id>
+   <address>www.youtube.com</address>
+   <activate>True</activate>
+</request>
