@@ -15,6 +15,8 @@ Global
 		{C04424E5-2EC6-4F7C-8EA7-635775500FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C04424E5-2EC6-4F7C-8EA7-635775500FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C04424E5-2EC6-4F7C-8EA7-635775500FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752445D6-1DE0-41A2-9B9C-B742CBE03FB6}.Debug|Any CPU.ActiveCfg = Debug
+		{752445D6-1DE0-41A2-9B9C-B742CBE03FB6}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

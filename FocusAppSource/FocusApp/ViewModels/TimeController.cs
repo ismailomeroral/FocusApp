@@ -49,15 +49,21 @@ namespace FocusApp.ViewModels
         {
             return (Seconds <= 0 && Minutes <= 0 && Hours <= 0);
         }
-        public string TimerExport()
+        public (int _hour, int _minute, int _second) TimerExport()
         {
-            return Hours.ToString("00") + ":" + Minutes.ToString("00") + ":" + Seconds.ToString("00");
+            return (Hours, Minutes, Seconds);
         }
         public void TimeSet(int _hour, int _minute)
         {
             Hours = _hour + (_minute - (_minute % 60)) / 60;
             Minutes = (_minute % 60);
             Seconds = 0;
+        }
+        public void TimeSet((int _hour, int _minute, int _second) _time)
+        {
+            Hours = _time._hour;
+            Minutes = _time._minute;
+            Seconds = _time._second;
         }
     }
 }

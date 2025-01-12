@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\My\\Works\\WindowsApp\\FocusApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\My\\Github\\FocusApp\\FocusAppSource\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C04424E5-2EC6-4F7C-8EA7-635775500FC5}|FocusApp\\FocusApp.csproj|d:\\my\\github\\focusapp\\focusappsource\\focusapp\\models\\dirinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04424E5-2EC6-4F7C-8EA7-635775500FC5}|FocusApp\\FocusApp.csproj|solutionrelative:focusapp\\models\\dirinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04424E5-2EC6-4F7C-8EA7-635775500FC5}|FocusApp\\FocusApp.csproj|D:\\My\\Github\\FocusApp\\FocusAppSource\\focusapp\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04424E5-2EC6-4F7C-8EA7-635775500FC5}|FocusApp\\FocusApp.csproj|solutionrelative:focusapp\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04424E5-2EC6-4F7C-8EA7-635775500FC5}|FocusApp\\FocusApp.csproj|d:\\my\\github\\focusapp\\focusappsource\\focusapp\\entitymodels\\webipdb.idb||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C04424E5-2EC6-4F7C-8EA7-635775500FC5}|FocusApp\\FocusApp.csproj|solutionrelative:focusapp\\entitymodels\\webipdb.idb||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04424E5-2EC6-4F7C-8EA7-635775500FC5}|FocusApp\\FocusApp.csproj|d:\\my\\github\\focusapp\\focusappsource\\focusapp\\entitymodels\\processdb.sdb||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C04424E5-2EC6-4F7C-8EA7-635775500FC5}|FocusApp\\FocusApp.csproj|solutionrelative:focusapp\\entitymodels\\processdb.sdb||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 293,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProcessDB.sdb",
+              "DocumentMoniker": "D:\\My\\Github\\FocusApp\\FocusAppSource\\FocusApp\\EntityModels\\ProcessDB.sdb",
+              "RelativeDocumentMoniker": "FocusApp\\EntityModels\\ProcessDB.sdb",
+              "ToolTip": "D:\\My\\Github\\FocusApp\\FocusAppSource\\FocusApp\\EntityModels\\ProcessDB.sdb",
+              "RelativeToolTip": "FocusApp\\EntityModels\\ProcessDB.sdb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-12T12:06:39.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebIPDB.idb",
+              "DocumentMoniker": "D:\\My\\Github\\FocusApp\\FocusAppSource\\FocusApp\\EntityModels\\WebIPDB.idb",
+              "RelativeDocumentMoniker": "FocusApp\\EntityModels\\WebIPDB.idb",
+              "ToolTip": "D:\\My\\Github\\FocusApp\\FocusAppSource\\FocusApp\\EntityModels\\WebIPDB.idb",
+              "RelativeToolTip": "FocusApp\\EntityModels\\WebIPDB.idb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-01-12T12:06:38.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\My\\Github\\FocusApp\\FocusAppSource\\FocusApp\\frmMain.cs",
+              "RelativeDocumentMoniker": "FocusApp\\frmMain.cs",
+              "ToolTip": "D:\\My\\Github\\FocusApp\\FocusAppSource\\FocusApp\\frmMain.cs",
+              "RelativeToolTip": "FocusApp\\frmMain.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:06:11.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DirInfo.cs",
+              "DocumentMoniker": "D:\\My\\Github\\FocusApp\\FocusAppSource\\FocusApp\\Models\\DirInfo.cs",
+              "RelativeDocumentMoniker": "FocusApp\\Models\\DirInfo.cs",
+              "ToolTip": "D:\\My\\Github\\FocusApp\\FocusAppSource\\FocusApp\\Models\\DirInfo.cs",
+              "RelativeToolTip": "FocusApp\\Models\\DirInfo.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:03:33.397Z",
+              "EditorCaption": ""
             }
           ]
         }

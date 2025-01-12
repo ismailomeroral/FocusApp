@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FocusApp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Focus Application")]
+[assembly: AssemblyDescription("It blocks other selected websites while you work and prevents your focus from being distracted.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FocusApp")]
+[assembly: AssemblyCompany("ismail ömer oral")]
+[assembly: AssemblyProduct("Focus Application")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

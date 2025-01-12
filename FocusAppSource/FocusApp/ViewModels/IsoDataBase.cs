@@ -13,12 +13,21 @@ namespace FocusApp.ViewModels
         private string Path;
         private string Name;
         private List<Request> DataList { get; set; }
+
+
+        private static List<string> patternList = new List<string>
+        {
+            @"<request>(.*?)</request>",
+            @"<id>(.*?)</id>",
+            @"<address>(.*?)</address>",
+            @"<activate>(.*?)</activate>",
+        };
         public IsoDataBase(string name, string path)
         {
             Path = path;
             Name = name;
             if (path != null)
-                DataList = DataController.BreakUpText(DataController.RetrieveTextFromDataBase(Path));
+                DataList = BreakUpText(DataController.RetrieveTextFromDataBase(Path));
         }
         public List<Request> ToList()
         {
@@ -65,9 +74,34 @@ namespace FocusApp.ViewModels
         {
             return DataList.Where(b => b.address == values).Count() > 0;
         }
+        private List<Request> BreakUpText(string text)
+        {
+            var requestlist = DataController.ListByPattern(text, patternList[0]);
+            List<Request> list = new List<Request>();
+            foreach (var item in requestlist)
+            {
+                list.Add(new Request
+                {
+                    id = int.Parse(DataController.FindByPattern(item, patternList[1])),
+                    address = DataController.FindByPattern(item, patternList[2]),
+                    activate = bool.Parse(DataController.FindByPattern(item, patternList[3]))
+                });
+            }
+            return list;
+        }
         private void SaveChanges()
         {
-            DataController.SaveChanges(DataList, Path);
+            string dbSaveText = "";
+            foreach (var request in DataList)
+            {
+                string requestbody = $"<request>\n" +
+                                     $"   <id>{request.id}</id>\n" +
+                                     $"   <address>{request.address}</address>\n" +
+                                     $"   <activate>{request.activate}</activate>\n" +
+                                     $"</request>\n";
+                dbSaveText += requestbody;
+            }
+            DataController.SaveChanges(dbSaveText, Path);
         }
     }
 }

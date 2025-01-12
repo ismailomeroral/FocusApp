@@ -1,5 +1,6 @@
 ﻿using FocusApp.Models;
 using FocusApp.ViewModels;
+using FocusApp.ViewModels.Style_Models;
 using SoftwareTrainingApplication.Models.Tools;
 using SoftwareTrainingApplication.Models.UserControls;
 using SoftwareTrainingApplication.ViewModels.Style;
@@ -13,6 +14,7 @@ namespace FocusApp
     partial class frmMain : CustomForm
     {
         IsoDataBase db = new IsoDataBase("Web Address", DirInfo.dbPath);
+        SingleDataBase timeDb = new SingleDataBase(DirInfo.sdbPath);
         TimeController time = new TimeController();
 
         FormMovedEvent movedEvent = new FormMovedEvent();
@@ -20,6 +22,7 @@ namespace FocusApp
         {
             InitializeComponent();
             movedEvent.SetForm(this, pnlBar);
+            TimeControl();
             CheckListBoxReload();
         }
         private void CheckListBoxReload()
@@ -30,10 +33,21 @@ namespace FocusApp
                 clistboxWebAddress.Add(item.address, item.activate);
             }
         }
-
-
-
+        private void TimeControl()
+        {
+            isFocusWorking = timeDb.Select().working;
+            type = timeDb.Select().type;
+            if (isFocusWorking)
+            {
+                Focus(true);
+                tbtnTimeLimit.Checked = type == "backward";
+                time.TimeSet(timeDb.Select().time);
+                tmr.Start();
+            }
+        }
         int count = 1;
+        string type = "forward";
+
         bool isFocusWorking = false;
         private void Focus(bool _isFocusing)
         {
@@ -43,10 +57,12 @@ namespace FocusApp
             btnStartFocus.Visible = !_isFocusing;
             btnFinishFocus.Visible = _isFocusing;
             clistboxWebAddress.Enabled = !_isFocusing;
-            count = (tbtnTimeLimit.Checked != true ? +1 : -1);
+            count = (type == "forward" ? +1 : type == "backward" ? -1 : 0);
 
-            if (tbtnTimeLimit.Checked)
+            if (tbtnTimeLimit.Checked && _isFocusing)
+            {
                 time.TimeSet(0, int.Parse(cmboxTime.Text));
+            }
             if (_isFocusing)
             {
                 tmr.Start();
@@ -60,21 +76,17 @@ namespace FocusApp
                 isFocusWorking = false;
             }
         }
-
-
-
-
-
         private void btnStartFocus_Click(object sender, EventArgs e)
         {
             Focus(true);
         }
         private void btnFinishFocus_Click(object sender, EventArgs e)
         {
-            if (!tbtnTimeLimit.Checked)
+            if (type == "forward")
                 Focus(false);
             else
                 MessageBox.Show("Süre bitene kadar Odaklanma devam edecektir.");
+
         }
 
 
@@ -92,8 +104,9 @@ namespace FocusApp
         private void tbtnTimeLimit_CheckedChanged(object sender, EventArgs e)
         {
             cmboxTime.Visible = !cmboxTime.Visible;
-        }
+            type = (!tbtnTimeLimit.Checked ? "forward" : "backward");
 
+        }
         private void btnShowNewAddress_Click(object sender, EventArgs e)
         {
             pnlNewAddress.Visible = !pnlNewAddress.Visible;
@@ -126,13 +139,18 @@ namespace FocusApp
                     break;
             }
         }
-
         private void tmr_Tick(object sender, EventArgs e)
         {
+            var nowTime = time.TimerExport();
             time.TimeProgression(count);
-            lblTimer.Text = time.TimerExport();
+            lblTimer.Text = nowTime._hour.ToString("00") + ":" + nowTime._minute.ToString("00") + ":" + nowTime._second.ToString("00");
             if (time.IsFinishTime())
                 Focus(false);
+            SaveTimeInfo();
+        }
+        private void SaveTimeInfo()
+        {
+            timeDb.Update(time.TimerExport(), count > 0 ? "forward" : "backward", isFocusWorking);
         }
     }
 }

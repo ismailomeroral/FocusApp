@@ -1,0 +1,14 @@
+D:\My\Works\WindowsApp\FocusApp\FocusApp\bin\Release\FocusApp.exe.config
+D:\My\Works\WindowsApp\FocusApp\FocusApp\bin\Release\FocusApp.exe
+D:\My\Works\WindowsApp\FocusApp\FocusApp\bin\Release\FocusApp.pdb
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\FocusApp.csproj.AssemblyReference.cache
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\FocusApp.frmMain.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\SoftwareTrainingApplication.Models.Tools.CustomForm.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\kysToolDemo.KysTools.KYSTextBox.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\SoftwareTrainingApplication.Models.UserControls.CheckListBox.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\SoftwareTrainingApplication.Models.UserControls.CheckListItem.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\FocusApp.Properties.Resources.resources
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\FocusApp.csproj.GenerateResource.cache
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\FocusApp.csproj.CoreCompileInputs.cache
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\FocusApp.exe
+D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Release\FocusApp.pdb

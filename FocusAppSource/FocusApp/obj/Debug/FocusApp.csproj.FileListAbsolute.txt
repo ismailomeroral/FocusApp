@@ -13,3 +13,17 @@ D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\SoftwareTrainingApplication.M
 D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\SoftwareTrainingApplication.Models.UserControls.CheckListBox.resources
 D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\SoftwareTrainingApplication.Models.UserControls.CheckListItem.resources
 D:\My\Works\WindowsApp\FocusApp\FocusApp\obj\Debug\kysToolDemo.KysTools.KYSTextBox.resources
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\bin\Debug\FocusApp.exe.config
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\bin\Debug\FocusApp.exe
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\bin\Debug\FocusApp.pdb
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\FocusApp.csproj.AssemblyReference.cache
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\FocusApp.frmMain.resources
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\SoftwareTrainingApplication.Models.Tools.CustomForm.resources
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\kysToolDemo.KysTools.KYSTextBox.resources
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\SoftwareTrainingApplication.Models.UserControls.CheckListBox.resources
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\SoftwareTrainingApplication.Models.UserControls.CheckListItem.resources
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\FocusApp.Properties.Resources.resources
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\FocusApp.csproj.GenerateResource.cache
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\FocusApp.csproj.CoreCompileInputs.cache
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\FocusApp.exe
+D:\My\Github\FocusApp\FocusAppSource\FocusApp\obj\Debug\FocusApp.pdb
